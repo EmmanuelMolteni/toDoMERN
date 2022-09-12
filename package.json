@@ -1,0 +1,25 @@
+{
+  "name": "todomern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmanuelMolteni/toDoMERN.git"
+  },
+  "author": "Molteni Emmanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmanuelMolteni/toDoMERN/issues"
+  },
+  "homepage": "https://github.com/EmmanuelMolteni/toDoMERN#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "morgan": "^1.10.0"
+  }
+}
